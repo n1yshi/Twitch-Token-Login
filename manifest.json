@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Token Login",
+  "description": "Log into Twitch using your authentication token.",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Twitch Token Login",
+    "default_popup": "src/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*.twitch.tv/*",
+    "https://twitch.tv/*"
+  ]
+}

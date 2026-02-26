@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitch Token Login</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Twitch Token Login</h1>
+      <label for="token">Auth Token</label>
+      <input id="token" type="text" placeholder="Enter Twitch auth token" autocomplete="off" />
+      <div class="actions">
+        <button id="submit" type="button">Login to Twitch</button>
+      </div>
+      <div id="status" class="status-message" style="display: none"></div>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
