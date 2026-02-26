@@ -11,3 +11,8 @@
 2. Enable **Developer mode**
 3. Click **Load unpacked**
 4. Select this project folder
+
+This project is provided as a PoC for personal learning, research, and defensive testing only.
+You must not use it against any system without explicit written permission from the owner.
+Any unauthorized, abusive, or illegal use is strictly prohibited.
+I accept no liability for misuse, damages, losses, or legal consequences caused by third-party use.
